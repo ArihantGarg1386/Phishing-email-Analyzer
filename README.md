@@ -97,12 +97,12 @@ Each heuristic rule contributes a severity weight (10–90) when triggered. The 
 | 70–100 (no external confirmation) | Likely Phishing |
 | Any score, with external confirmation | Confirmed Malicious |
 
-## Project structure
+## Overall structure
 
 ```
 email-forensics/
 ├── src/email_forensics/
-│   ├── parser.py          # Email parsing — headers, body, URLs, attachments
+│   ├── parser.py          # Email parsing — headers, body, URLs, attachment
 │   ├── heuristics.py       # Rule-based detection engine
 │   ├── verification.py     # VirusTotal / Safe Browsing API integration
 │   ├── verdict.py          # Score combination and final classification
