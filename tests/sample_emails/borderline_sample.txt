@@ -1,0 +1,25 @@
+From: deals@newsletter-promoshop.com
+To: subscriber@example.com
+Reply-To: deals@newsletter-promoshop.com
+Return-Path: deals@newsletter-promoshop.com
+Subject: Limited time offer - 50% off ends soon
+Message-ID: <news4456@newsletter-promoshop.com>
+Date: Mon, 29 Jun 2026 09:00:00 +0000
+Received: from smtp.promoshop.com (smtp.promoshop.com [203.0.113.55])
+	by mx.example.com with ESMTPS id z9y8x7w6
+	for <subscriber@example.com>; Mon, 29 Jun 2026 09:00:01 +0000
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=newsletter-promoshop.com; dkim=fail header.d=newsletter-promoshop.com
+Content-Type: text/plain; charset="utf-8"
+
+Hey there,
+
+Our biggest sale of the season is here! For a limited time, enjoy 50%
+off your entire order. Don't wait - this offer won't last.
+
+Shop now: https://shop.promoshop.com/sale?ref=newsletter
+
+As always, you can manage your subscription preferences or unsubscribe
+at any time from the link in our footer.
+
+See you in store,
+The PromoShop Team

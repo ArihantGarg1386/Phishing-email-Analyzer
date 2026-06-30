@@ -1,0 +1,34 @@
+From: "PayPal Security" <security@paypa1-support.com>
+To: victim@example.com
+Reply-To: response-team@secure-paypaI.com
+Return-Path: bounce@totallylegit-mailer.ru
+Subject: URGENT: Your account will be closed - verify your account immediately
+Message-ID: <99887766@mail-relay-host.biz>
+Date: Mon, 29 Jun 2026 03:11:54 +0000
+Received: from unknown (HELO localhost) (185.220.101.47)
+	by relay.example.com; Mon, 29 Jun 2026 03:11:50 +0000
+Content-Type: text/html; charset="utf-8"
+
+<html>
+<body>
+<p>Dear Valued Customer,</p>
+
+<p>We have detected <b>unusual activity</b> on your PayPal account. Your
+account will be closed within 24 hours unless you verify your identity
+immediately.</p>
+
+<p>This is your final notice. Failure to comply will result in permanent
+suspension of your account.</p>
+
+<p>Please click below to confirm your identity and avoid account closure:</p>
+
+<p><a href="http://192.168.45.201/secure/login.php">paypal.com</a></p>
+
+<p>Alternatively use this secure shortened link:
+<a href="http://bit.ly/3xKpQs9">bit.ly/3xKpQs9</a></p>
+
+<p>Thank you for your urgent action required on this matter.</p>
+
+<p>PayPal Security Team</p>
+</body>
+</html>

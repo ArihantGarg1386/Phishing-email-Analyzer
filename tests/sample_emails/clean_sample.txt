@@ -1,0 +1,31 @@
+From: notifications@github.com
+To: developer@example.com
+Reply-To: notifications@github.com
+Return-Path: notifications@github.com
+Subject: [octocat/Hello-World] New issue opened: Build failing on main
+Message-ID: <abc123.1234@github.com>
+Date: Mon, 29 Jun 2026 14:23:11 +0000
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com [209.85.220.41])
+	by mx.example.com with ESMTPS id a1b2c3d4
+	for <developer@example.com>; Mon, 29 Jun 2026 14:23:10 +0000
+Received: by mail-sor-f41.google.com with SMTP id x1so123456
+	for <developer@example.com>; Mon, 29 Jun 2026 14:23:09 +0000
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=github.com; dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+A new issue was opened on octocat/Hello-World:
+
+"Build failing on main"
+
+The CI pipeline reported a test failure in the integration suite after
+the latest merge. Please review the logs at your convenience.
+
+You can view this issue at:
+https://github.com/octocat/Hello-World/issues/142
+
+You are receiving this because you are subscribed to this repository.
+
+Thanks,
+GitHub

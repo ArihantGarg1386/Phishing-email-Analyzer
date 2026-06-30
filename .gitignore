@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Output
+*.json
+!tests/**/*.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
