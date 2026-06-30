@@ -86,13 +86,6 @@ python -m email_forensics.cli --file path/to/email.txt --json result.json
 
 There are three samples designed to land in three different verdict tiers (`Clean`, `Suspicious`, `Likely Phishing`), so you can see the scoring model differentiate between them immediately.
 
-## Running tests
-
-```bash
-pip install pytest
-pytest tests/
-```
-
 ## Scoring methodology
 
 Each heuristic rule contributes a severity weight (10–90) when triggered. The internal score is the sum of all triggered weights, capped at 100. The final score additionally factors in external confirmation: a confirmed-malicious URL from VirusTotal or Safe Browsing pulls the final score to at least 90, regardless of how the internal heuristics scored it, because live threat intelligence on a specific indicator is treated as a stronger signal than static pattern-matching alone.
