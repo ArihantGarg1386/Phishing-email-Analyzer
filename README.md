@@ -33,7 +33,7 @@ $ email-forensics --file suspicious_email.txt
 
 The pipeline runs in four stages:
 
-1. **Parsing** (`parser.py`) — reads the raw email and extracts headers (`From`, `Reply-To`, `Return-Path`, `Received chain`, `Message-ID`, `Authentication-Results`), plain-text and HTML bodies, every URL (including ones hidden behind HTML anchor text), and attachment metadata. This stage makes no judgments — it only extracts facts.
+1. **Parsing** (`parser.py`) — reads the raw email and extracts headers (`From`, `Reply-To`, `Return-Path`, `Received chain`, `Message-ID`, `Authentication-Results`), plain-text and HTML bodies, every URL (including ones hidden behind HTML anchor text), and attachment metadata.
 
 2. **Heuristic analysis** (`heuristics.py`) — runs a set of independent rules against the parsed data and assigns each a severity-weighted flag if triggered:
    - Header mismatches: `From` vs `Reply-To` vs `Return-Path` vs `Message-ID` domains
