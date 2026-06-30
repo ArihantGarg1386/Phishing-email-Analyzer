@@ -69,7 +69,7 @@ cp .env.example .env
 | VirusTotal | ~4 requests/min | https://www.virustotal.com/gui/join-us |
 | Google Safe Browsing | 10,000 requests/day | https://developers.google.com/safe-browsing/v4/get-started |
 
-Without API keys, the tool still runs and produces a full report based on heuristics alone — external verification tables simply note that no API keys were configured.
+Without API keys, the tool still runs and produces a full report based on heuristics alone — external verification tables simply note that no API keys were configured. Just append the `--no-api ` flag at the end.
 
 ## Usage
 
