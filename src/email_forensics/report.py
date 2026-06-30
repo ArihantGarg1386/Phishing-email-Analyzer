@@ -1,6 +1,4 @@
 """
-report.py
----------
 Renders a ParsedEmail + FinalVerdict as a structured terminal report
 using `rich`. Kept separate from the analysis logic so the same data
 could later be rendered as JSON/HTML without touching detection code.
