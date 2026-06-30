@@ -1,13 +1,3 @@
-"""
-cli.py
-------
-Command-line entry point. Usage:
-
-    python -m email_forensics.cli --file path/to/email.txt
-    python -m email_forensics.cli --file path/to/email.txt --no-api
-    python -m email_forensics.cli --file path/to/email.txt --json out.json
-"""
-
 from __future__ import annotations
 
 import sys
