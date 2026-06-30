@@ -1,12 +1,5 @@
 """
-heuristics.py
---------------
-Rule-based detection engine. Each rule inspects the ParsedEmail and,
-if triggered, emits a Flag with a severity weight. The sum of weights
-becomes the "internal score" — our own independent judgment before
-we ever talk to an external API.
-
-Severity scale (rough guide):
+Severity scale:
   10-20  minor oddity, common in legitimate mail too
   30-50  meaningful red flag
   60-90  strong indicator of malicious intent
