@@ -118,7 +118,7 @@ email-forensics/
 
 ## Limitations
 
-This is a static analysis tool — it does not detonate attachments in a sandbox, follow redirect chains, or render JavaScript. Typosquat detection uses string-similarity scoring against a small fixed brand list rather than a comprehensive database. VirusTotal's free tier rate limit (~4 requests/min) means analysis of emails with many URLs will be slower; the `--no-api` flag is provided for quick iteration during development or demos.
+This is a static analysis tool — it does not execute attachments in a sandbox, follow redirect chains, or render JavaScript. Typosquat detection uses string-similarity scoring against a small fixed brand list rather than a comprehensive database. VirusTotal's free tier rate limit (~4 requests/min) means analysis of emails with many URLs will be slower; the `--no-api` flag is provided for quick iteration during development or demos.
 
 ## License
 
