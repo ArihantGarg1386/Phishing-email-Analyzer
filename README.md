@@ -51,7 +51,7 @@ The pipeline runs in four stages:
 ## Installation
 
 ```bash
-git clone https://github.com/ArihantGarg1386/email-forensics.git
+git clone https://github.com/ArihantGarg1386/Phishing-email-Analyzer
 pip install -r requirements.txt
 ```
 
