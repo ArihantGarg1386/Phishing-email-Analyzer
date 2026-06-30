@@ -1,7 +1,3 @@
-"""
-Basic sanity tests using the bundled sample emails.
-Run with: pytest tests/
-"""
 
 import sys
 from pathlib import Path
