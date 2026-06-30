@@ -1,12 +1,9 @@
 """
-parser.py
----------
 Parses a raw .eml / .txt email file into a structured representation
 that downstream modules (heuristics, verification, verdict) can consume.
 
-Design note: we deliberately keep this module dumb. It extracts facts
-(headers, urls, attachments) and makes no judgments about whether
-anything is suspicious. That logic lives in heuristics.py.
+Design note:It extracts facts (headers, urls, attachments) and makes
+no judgments about whetheranything is suspicious. That logic lives in heuristics.py.
 """
 
 from __future__ import annotations
