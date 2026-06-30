@@ -38,7 +38,7 @@ The pipeline runs in four stages:
 2. **Heuristic analysis** (`heuristics.py`) — runs a set of independent rules against the parsed data and assigns each a severity-weighted flag if triggered:
    - Header mismatches: `From` vs `Reply-To` vs `Return-Path` vs `Message-ID` domains
    - SPF / DKIM / DMARC authentication failures
-   - Suspiciously short or missing `Received` chains
+   - Suspiciously short or missing Received chains
    - Urgency/pressure language common in social engineering
    - URL red flags: IP-literal links, known shorteners, typosquatted brand domains (via similarity scoring), and **anchor-text spoofing** (visible link text that doesn't match the real destination)
    - Attachment red flags: double extensions (`invoice.pdf.exe`), executable/script file types, anomalously small Office documents
