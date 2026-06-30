@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Phishing-email-Analyzer",
-    version="1.0.0",
+    version="1.0",
     description="Static analysis + threat-intel verification tool for detecting phishing in raw emails",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
