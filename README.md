@@ -12,21 +12,21 @@ $ email-forensics --file suspicious_email.txt
 ┌───────────────┬────────────────────────────────────┐
 │ From          │ PayPal Security <security@paypa1…  │
 │ Reply-To      │ response-team@secure-paypaI.com    │
-│ SPF           │ not present                         │
-│ DMARC         │ not present                         │
+│ SPF           │ not present                        │
+│ DMARC         │ not present                        │
 └───────────────┴────────────────────────────────────┘
 
                     Heuristic Flags
-┌──────────┬────────────────────────┬─────────────────┐
-│ Severity │ Rule                   │ Description      │
-│       65 │ anchor_text_mismatch   │ ...               │
-│       55 │ ip_literal_url         │ ...               │
-└──────────┴────────────────────────┴─────────────────┘
+┌──────────┬────────────────────────┬───────────────┐
+│ Severity │ Rule                   │ Description   │
+│       65 │ anchor_text_mismatch   │ ...           │
+│       55 │ ip_literal_url         │ ...           │
+└──────────┴────────────────────────┴───────────────┘
 
-╭──────────────── Final Verdict ────────────────╮
+╭──────────────── Final Verdict ─────────────────╮
 │ VERDICT: Likely Phishing                       │
 │ Final Score: 100/100                           │
-╰─────────────────────────────────────────────────╯
+╰────────────────────────────────────────────────╯
 ```
 
 ## How it works
