@@ -1,6 +1,4 @@
 """
-verdict.py
-----------
 Combines the internal heuristic score with external verification results
 into one final classification. This is the "final answer" the tool gives.
 
