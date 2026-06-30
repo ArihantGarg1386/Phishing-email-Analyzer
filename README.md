@@ -1,8 +1,7 @@
-# Email Forensics
 
-A static analysis and threat-intelligence verification tool that scans raw email files (`.eml` / `.txt`) for phishing and spoofing indicators, then cross-checks its own findings against real-world threat intelligence APIs before producing a final verdict.
+A static analysis and threat-intelligence verification tool that scans raw email files for phishing and spoofing indicators, then cross-checks its own findings against real-world threat intelligence APIs to give a final verdict.
 
-Most beginner phishing detectors stop at keyword matching. This tool is built around a two-stage model: an independent heuristic engine that judges the email on its own structural and linguistic merits, and a verification layer that confirms (or contradicts) those findings against external reputation services — VirusTotal and Google Safe Browsing. The disagreement between the two is itself reported, because in real-world triage, knowing *where* automated systems disagree is often more useful than a single confidence number.
+ This tool is built around a two-stage model: an independent heuristic engine that judges the email on its own structural and linguistic merits, and a verification layer that confirms (or contradicts) those findings against external reputation services — VirusTotal and Google Safe Browsing. The disagreement between the two is itself reported, because in real-world triage, knowing *where* automated systems disagree is often more useful than a single confidence number.
 
 ```
 $ email-forensics --file suspicious_email.txt
