@@ -77,22 +77,14 @@ Without API keys, the tool still runs and produces a full report based on heuris
 # Full analysis with external verification
 python -m email_forensics.cli --file path/to/email.txt
 
-# Heuristics only, skip external API calls (fast, works offline)
+# Heuristics only, skip external API calls 
 python -m email_forensics.cli --file path/to/email.txt --no-api
 
 # Also save the full structured result as JSON
 python -m email_forensics.cli --file path/to/email.txt --json result.json
 ```
 
-### Try it on the bundled samples
-
-```bash
-python -m email_forensics.cli --file tests/sample_emails/clean_sample.txt --no-api
-python -m email_forensics.cli --file tests/sample_emails/borderline_sample.txt --no-api
-python -m email_forensics.cli --file tests/sample_emails/phishing_sample.txt --no-api
-```
-
-These three samples are designed to land in three different verdict tiers (`Clean`, `Suspicious`, `Likely Phishing`) so you can see the scoring model differentiate between them immediately.
+There are three samples designed to land in three different verdict tiers (`Clean`, `Suspicious`, `Likely Phishing`), so you can see the scoring model differentiate between them immediately.
 
 ## Running tests
 
