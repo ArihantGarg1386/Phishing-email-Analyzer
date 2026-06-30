@@ -51,8 +51,7 @@ The pipeline runs in four stages:
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/email-forensics.git
-cd email-forensics
+git clone https://github.com/ArihantGarg1386/email-forensics.git
 pip install -r requirements.txt
 ```
 
