@@ -1,17 +1,15 @@
 """
-verification.py
-----------------
 This is the "compare against open-source/external threat intel" layer.
 Our own heuristics.py makes an independent judgment; this module checks
 the same indicators (mainly URLs) against real-world reputation services
 so the final verdict isn't based on guesswork alone.
 
-Two providers are wired in:
+Two providers are used here:
   - VirusTotal (https://www.virustotal.com) — free tier, ~4 req/min
   - Google Safe Browsing (https://safebrowsing.google.com) — free tier
 
-If no API keys are configured, this module degrades gracefully and
-the tool still runs on heuristics alone (see --no-api flag in cli.py).
+If no API keys are configured, the tool still runs on heuristics alone.
+(see --no-api flag in cli.py).
 """
 
 from __future__ import annotations
